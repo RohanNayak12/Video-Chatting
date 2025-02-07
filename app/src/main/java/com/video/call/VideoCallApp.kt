@@ -27,8 +27,8 @@ class VideoCallApp :Application() {
             currentName=userName
             client=StreamVideoBuilder(
                 context = this,
-                apiKey = "a3jzt47e32km",
-                token = "3d72exmzshkeqg5v46ru7bjje9rr4ha485dm252xzptku8t33ym8ak5vg7kappc2",
+                apiKey = apiKey,
+                token = token,
                 user = User(
                     id = userName,
                     name = userName,
